@@ -63,23 +63,5 @@ for row in range(2, sh.max_row):
                         #print(str(year)[-6:-2])
                         print(sy.value, fy.value)
 
-                '''if r.text.find('Год') >= 0:
-                    for y in r.find_all('td'):
-                        sy = sh.cell(row=row, column=8)
-                        fy = sh.cell(row=row, column=9)
-                        year = y.text.strip()
-                        if 'н' in year:
-                            year = str(year[0:5]+'-'+t_year)
-                        if len(year) < 7:
-                            if if_death:
-                                fy.value = death_date
-                                if_death = False
-                            else:
-                                fy.value = t_year
-                                if_death = False'''
-
-
-
-
-
+               
 f.save('albumlist.xlsx')
