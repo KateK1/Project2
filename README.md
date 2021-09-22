@@ -8,5 +8,5 @@ Data source:
 https://data.world/notgibs/rolling-stones-top-500-albums
 
 Add data from Wikipedia 
--Years active
--Country
+*Years active
+*Country
