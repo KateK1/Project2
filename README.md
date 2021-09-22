@@ -7,6 +7,6 @@ Preparation for data visualization using SQL, parsing with python beautifulsoup
 Data source:
 https://data.world/notgibs/rolling-stones-top-500-albums
 
-Add data from Wikipedia 
+Added data from Wikipedia 
 * Years active
 * Country
