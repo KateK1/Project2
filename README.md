@@ -1,10 +1,10 @@
-# Project2
+# Visualization Rolling Stone's 500 Greatest Albums of All Time
 
-Визуализация на основе топ 500 альбомов по версии журнала Rolling Stones (редакция 2012 года)
+Preparation for data visualization using SQL, parsing with python beautifulsoup
 
-[Визаулизация](https://public.tableau.com/app/profile/kate5782/viz/Albumsw20/Sheet3?publish=yes)
+[Visualization](https://public.tableau.com/app/profile/kate5782/viz/Albumsw20/Sheet3?publish=yes)
 
-Составлена на основе данных:
+Source:
 https://data.world/notgibs/rolling-stones-top-500-albums
 
-Дополнена данными о годах активности исполнителя и страны происхождения исполнителя из Wikipedia
+Дополнена данными о годах активности исполнителя и страны происхождения исполнителя from Wikipedia
