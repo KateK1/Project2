@@ -1,31 +1,31 @@
 ﻿select *
 from Progect2.dbo.Albums
 
---Общая информация
+--Main info
 Select min([Year]) as MinYear, max([Year]) as MaxYear, count(distinct Artist) as Артисты,
 count(distinct Genre) as Жанры, count(distinct Country) as Страны
 from Progect2.dbo.Albums
 
---Количество альбомов в год
+--Albums per year
 select [Year], count(Album) as КоличествоВГод
 from Progect2.dbo.Albums
 group by [Year]
 order by [Year]
 
----Артисты по количеству альбомов
+--Artists in descending order by album's amount
 select distinct Artist, count(Album) as Количество
 from Progect2.dbo.Albums
 group by [Artist]
 order by count(Album) desc
 
---Количество по жанрам
+--Albums by genre
 select Genre, count(Album) as Количество
 from Progect2.dbo.Albums
 group by [Genre]
 order by count(Album) desc
 
 
---Альбомы по странам
+--Albums by country
 select Country, count(Album) as Количество
 from Progect2.dbo.Albums
 where Country is not NULL
@@ -33,7 +33,7 @@ group by Country
 order by count(Album) desc
 
 
---Артист и даты выходов альбомов
+--Artist and dates of albums release
 SELECT Artist, STRING_AGG([Year], ', ') AS ДатыВыхода
 from Progect2.dbo.Albums
 GROUP BY Artist
@@ -53,7 +53,7 @@ FROM Progect2.dbo.AlYear
 
 
 
---Годы существования группы, c датой выхода альбома
+--Artist's active years
 select Number, Artist, Album, [Year], StartY, FinY, Country,
 CASE WHEN Genre LIKE '%,%'
          THEN LEFT(Genre, CHARINDEX(',', Genre) - 1) END AS MGenre,
