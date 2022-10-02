@@ -12,7 +12,7 @@ Preparation for data visualization using SQL, parsing with python beautifulsoup
 [SQL](https://github.com/KateK1/Viz-Rolling-Stone-s-500-Greatest-Albums/blob/main/Project2Album.sql)
 
 ### Parser
-The source don't have a data about country where artists from and years of activity for each  artist. 
+The source doesn't have data about the country where artists are from and years of activity for each artist. 
 
 Added data from Wikipedia 
 * A year when the artist starts their career
