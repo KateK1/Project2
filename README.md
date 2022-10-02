@@ -7,7 +7,7 @@ Preparation for data visualization using SQL, parsing with python beautifulsoup
   
 [Data source](https://data.world/notgibs/rolling-stones-top-500-albums) 
   
-[Parser](https://github.com/KateK1/Viz-Rolling-Stone-s-500-Greatest-Albums/blob/main/Parser.py. 
+[Parser](https://github.com/KateK1/Viz-Rolling-Stone-s-500-Greatest-Albums/blob/main/Parser.py) 
   
 [SQL](https://github.com/KateK1/Viz-Rolling-Stone-s-500-Greatest-Albums/blob/main/Project2Album.sql)
 
