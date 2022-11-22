@@ -12,6 +12,6 @@ Preparation for data visualization using SQL, parsing with python beautifulsoup
 The source doesn't have data about the country where artists are from and years of activity for each artist. 
 
 Added data from Wikipedia 
-* A year when the artist starts their career
-* A year when artist end career, if artist steels active - current year
+* A year when the artist started their career
+* A year when the artist ends their career if the artist steels active - current year
 * Country
